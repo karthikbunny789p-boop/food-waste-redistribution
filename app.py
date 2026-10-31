@@ -41,7 +41,7 @@ st.markdown("""
         width: 100%;
     }
 </style>
-""", unsafe_allow_python_style=True)
+""", unsafe_allow_html=True)
 
 # --- Network Coordinates & Graph ---
 locations = {
@@ -110,8 +110,8 @@ def astar_search(start, goal):
     return float("inf"), []
 
 # --- Header Section ---
-st.markdown('<div class="main-header">🌱 AI-Powered Food Waste Redistribution System</div>', unsafe_allow_python_style=True)
-st.markdown('<div class="sub-header">Optimize surplus food delivery routes and reduce urban food spoilage using A* & Greedy Best-First Search.</div>', unsafe_allow_python_style=True)
+st.markdown('<div class="main-header">🌱 AI-Powered Food Waste Redistribution System</div>', unsafe_allow_html=True)
+st.markdown('<div class="sub-header">Optimize surplus food delivery routes and reduce urban food spoilage using A* & Greedy Best-First Search.</div>', unsafe_allow_html=True)
 
 # --- Sidebar Controls ---
 st.sidebar.title("⚙️ System Control")
